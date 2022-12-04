@@ -16,7 +16,7 @@
   }
 
   section {
-    height: 100vh;
+    height: 220vh;
       }
   
    h1 {
@@ -68,24 +68,32 @@
       }
   
   
-  .pic1 {
+  #pic1 {
     width: 250px; 
     height: 200px;  
 
     padding-right: 30%;
   }
   
-  .pic2 {
+  #pic2 {
     width: 150px;
     height: 200px;
     padding-left: 30%;
-
   }
   
- #eyepics{
+ .eyepics{
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-   display: block;
+  }
+  
+  .bj{
+    top: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   
   h5{
@@ -100,6 +108,18 @@
         padding-top: 15px;
   }
   
+   h6{
+        font-family: 'Seymour One', sans-serif;
+        font-size: 10px;
+        text-align: center;
+  }
+  
+   p{ 
+        font-family: 'Seymour One', sans-serif;
+        font-size: 10px;
+        text-align: center;
+  }
+
   
   #main {
     background-color:;
@@ -138,17 +158,17 @@
   </h4>
   
   <a href="#beijing">
-  <img src= "left eye.jpeg" 
-       alt= left eye picture
-       class="pic1"
-       id="eyepics"
+  <img src="left eye.jpeg" 
+       alt="left eye picture"
+       class="eyepics"
+       id="pic1">
        </a>
     
   <a href="#chicago">
-  <img src= "right eye.jpeg" 
-       alt= right eye picture
-       class="pic2"
-       id="eyepics"
+  <img src="right eye.jpeg" 
+       alt="right eye picture"
+       class="eyepics"
+       id="pic2">
        </a>
   
 </section>
@@ -157,6 +177,30 @@
    <h5>
      Beijing in Slumbers
   </h5>
+  
+  <img src="sunset.jpeg" 
+       alt="sunset"
+       class="bj">
+    <p>
+     2019.4.14 Going to the rooftop after school to make movies
+   </p>
+  
+ <img src="flyinghome.jpeg" 
+       alt="sunset"
+       class="bj">
+     <p>
+     2020.9.11 "we are flying back home at sunset"
+     </p>
+  
+  <img src="sunrise.jpeg" 
+       alt="sunset"
+       class="bj">
+     <p>
+     2021.2.6 "Sun Rise at 6PM"
+     </p>
+  
+  
+  
 </section>
 
 <section id="chicago">
